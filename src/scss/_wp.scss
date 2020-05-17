@@ -1,0 +1,34 @@
+.wp-caption {}
+.wp-caption-text {text-align:left;}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alignnone {
+	float: none;
+}
+
+
+img.alignright {
+	display: block;
+}
+img.alignleft {
+	display: block;
+}
+img.aligncenter {
+	display: block;
+}
+/*img.alignnone {
+	display: block;
+}*/
