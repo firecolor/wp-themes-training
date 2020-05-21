@@ -4,7 +4,6 @@
  * footer.php
  */
 ?>
-
 <footer>
 	<div class="copyright">FireColor</div>
 </footer>

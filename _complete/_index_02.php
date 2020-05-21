@@ -25,7 +25,9 @@ get_header(); // headタグまでを分離
 			
 			<div class="contents_wrap">
 				<div class="contents_date"><?php the_date('Y.m.d');?></div>
-				<h1 class="contents_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+				<h1 class="contents_title">
+					<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+				</h1>
 				<div class="contents_body">
 					<?php the_content(); ?>
 				</div>
